@@ -2,7 +2,6 @@ const expect = require('chai').expect
 const EC = protractor.ExpectedConditions
 const loc = require('../locators')
 const {MainPage, CatalogPage, BasketPage} = require('../pages')
-//const {BasketPage} = require("../pages/basketPage");
 
 
 describe('First suit', function() {
